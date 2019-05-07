@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">004Study_App_ShortCut</string>
+    <string name="add_new_website">Add New Website</string>
+    <string name="existing_shortcuts">Existing shortcuts:</string>
+</resources>

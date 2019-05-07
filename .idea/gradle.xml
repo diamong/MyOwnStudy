@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/001Study_Activity" />
+            <option value="$PROJECT_DIR$/002study_activity" />
+            <option value="$PROJECT_DIR$/003study_commonintents" />
+            <option value="$PROJECT_DIR$/004study_app_shortcut" />
+            <option value="$PROJECT_DIR$/005study_diceexam" />
+            <option value="$PROJECT_DIR$/006study_layout" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
