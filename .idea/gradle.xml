@@ -14,6 +14,10 @@
             <option value="$PROJECT_DIR$/004study_app_shortcut" />
             <option value="$PROJECT_DIR$/005study_diceexam" />
             <option value="$PROJECT_DIR$/006study_layout" />
+            <option value="$PROJECT_DIR$/007study_eventlistener" />
+            <option value="$PROJECT_DIR$/008study_recyclerview" />
+            <option value="$PROJECT_DIR$/009study_fragment" />
+            <option value="$PROJECT_DIR$/010study_fragment_wide" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
