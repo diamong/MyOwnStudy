@@ -18,6 +18,7 @@
             <option value="$PROJECT_DIR$/008study_recyclerview" />
             <option value="$PROJECT_DIR$/009study_fragment" />
             <option value="$PROJECT_DIR$/010study_fragment_wide" />
+            <option value="$PROJECT_DIR$/011study_viewpager" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
