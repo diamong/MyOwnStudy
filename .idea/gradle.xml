@@ -21,6 +21,7 @@
             <option value="$PROJECT_DIR$/011study_viewpager" />
             <option value="$PROJECT_DIR$/012study_sharedpreferences" />
             <option value="$PROJECT_DIR$/013study_dto" />
+            <option value="$PROJECT_DIR$/014study_recyclerview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
