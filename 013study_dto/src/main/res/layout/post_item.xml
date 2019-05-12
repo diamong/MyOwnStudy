@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/img_left"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="left"
+            android:background="#FF9800" />
+
+        <TextView
+            android:id="@+id/tv_like_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@id/img_right"
+            android:layout_toRightOf="@id/img_left"
+            android:lines="1"
+            android:text="safasflaskjaslkdafsasfasfdsafasfsafasdfasfasfasfasfsadfsfaasffsadfl" />
+
+        <ImageView
+            android:id="@+id/img_right"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+
+            android:background="#FF9800" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_user_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:lines="1"
+            android:maxLength="10"
+            android:text="anstar01010101_" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@id/tv_user_id"
+            android:lines="1"
+            android:text="불꽃놀이 했어요" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_sync"
+        android:summary="summary"
+        android:title="Title" />
+    <ListPreference
+
+        android:key="pref_syncConnectionType"
+        android:title="pref_syncConnectionType"
+        android:dialogTitle="pref_syncConnectionType"
+
+        android:dependency="pref_sync"
+        />
+    <RingtonePreference
+
+        android:title="알림음 설정"
+        android:ringtoneType="notification"
+        android:showDefault="true"
+
+        />
+
+
+</PreferenceScreen>

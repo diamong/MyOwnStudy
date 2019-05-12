@@ -19,6 +19,8 @@
             <option value="$PROJECT_DIR$/009study_fragment" />
             <option value="$PROJECT_DIR$/010study_fragment_wide" />
             <option value="$PROJECT_DIR$/011study_viewpager" />
+            <option value="$PROJECT_DIR$/012study_sharedpreferences" />
+            <option value="$PROJECT_DIR$/013study_dto" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
