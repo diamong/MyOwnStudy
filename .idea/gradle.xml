@@ -22,6 +22,9 @@
             <option value="$PROJECT_DIR$/012study_sharedpreferences" />
             <option value="$PROJECT_DIR$/013study_dto" />
             <option value="$PROJECT_DIR$/014study_recyclerview" />
+            <option value="$PROJECT_DIR$/015study_thread_AsyncTask" />
+            <option value="$PROJECT_DIR$/016study_glide" />
+            <option value="$PROJECT_DIR$/017study_camera" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
