@@ -1,20 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/layout_main"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <SurfaceView
-        android:id="@+id/camera_preview_main"
+    <ImageView
+        android:id="@+id/img_gallery"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="300dp"
+        android:scaleType="centerCrop" />
 
     <Button
-        android:onClick="CameraCapture"
         android:id="@+id/btn_camera"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:onClick="CameraCapture"
         android:text="캡처" />
 
-</FrameLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="PictureSave"
+        android:text="Save" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="GalleryPic"
+        android:text="불러오기" />
+
+    <ImageView
+        android:id="@+id/img_thumbnail"
+        android:layout_height="300dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop" />
+
+
+</LinearLayout>
