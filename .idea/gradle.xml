@@ -25,6 +25,8 @@
             <option value="$PROJECT_DIR$/015study_thread_AsyncTask" />
             <option value="$PROJECT_DIR$/016study_glide" />
             <option value="$PROJECT_DIR$/017study_camera" />
+            <option value="$PROJECT_DIR$/017study_camera2" />
+            <option value="$PROJECT_DIR$/018study_requestpermission" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
