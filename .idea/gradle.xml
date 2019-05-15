@@ -27,6 +27,8 @@
             <option value="$PROJECT_DIR$/017study_camera" />
             <option value="$PROJECT_DIR$/017study_camera2" />
             <option value="$PROJECT_DIR$/018study_requestpermission" />
+            <option value="$PROJECT_DIR$/019study_animated" />
+            <option value="$PROJECT_DIR$/020study_easyflipviewlibrary" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
