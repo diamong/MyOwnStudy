@@ -5,7 +5,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.diamong.a020study_easyflipviewlibrary"
+        applicationId "com.diamong.a022study_spinner"
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
@@ -32,6 +32,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-
-    implementation 'com.wajahatkarim3.EasyFlipView:EasyFlipView:2.1.2'
 }

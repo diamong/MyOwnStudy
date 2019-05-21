@@ -29,6 +29,8 @@
             <option value="$PROJECT_DIR$/018study_requestpermission" />
             <option value="$PROJECT_DIR$/019study_animated" />
             <option value="$PROJECT_DIR$/020study_easyflipviewlibrary" />
+            <option value="$PROJECT_DIR$/021study_login" />
+            <option value="$PROJECT_DIR$/022study_spinner" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
