@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         spinner = (Spinner)findViewById(R.id.spinner);
         selectedText = (TextView)findViewById(R.id.select_text);
 
-        String[] alphabetArray = Utils.readTextFromAssets(this, "vi_alphabet.txt");
+        String[] alphabetArray = Utils.readTextFromAssets(this, "new.txt");
 
         if (alphabetArray != null) {
             spinnerAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, alphabetArray);
@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
         return new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView adapterView, View view, int i, long l) {
+
+                int mId = view.getId();
                 selectedText.setText((String)adapterView.getSelectedItem());
             }
 
