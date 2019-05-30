@@ -1,6 +1,7 @@
 package com.diamong.a023study_firebasestorage;
 
 import android.annotation.SuppressLint;
+import android.app.ProgressDialog;
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -23,12 +24,15 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseStorage firebaseStorage;
     private StorageReference storageReference;
+    ProgressDialog progressDialog;
 
     @SuppressLint("WrongThread")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        progressDialog = new ProgressDialog(this);
 
 
         firebaseStorage = FirebaseStorage.getInstance();
@@ -47,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
             ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
             bitmap.compress(Bitmap.CompressFormat.PNG, 100, outputStream);
             byte[] data = outputStream.toByteArray();
+            progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+            progressDialog.setMessage("업로드 중입니다.");
+            progressDialog.show();
 
             UploadTask uploadTask = storageReference.putBytes(data);
             uploadTask.addOnFailureListener(new OnFailureListener() {
@@ -58,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
             }).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
+                    progressDialog.dismiss();
                     Toast.makeText(MainActivity.this, "Upload Sucess", Toast.LENGTH_SHORT).show();
                 }
             });
