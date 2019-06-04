@@ -33,6 +33,8 @@
             <option value="$PROJECT_DIR$/022study_spinner" />
             <option value="$PROJECT_DIR$/023study_firebasestorage" />
             <option value="$PROJECT_DIR$/024study_progressdialog" />
+            <option value="$PROJECT_DIR$/025study_layoutflipanimation" />
+            <option value="$PROJECT_DIR$/026study_overlay" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
