@@ -35,6 +35,12 @@
             <option value="$PROJECT_DIR$/024study_progressdialog" />
             <option value="$PROJECT_DIR$/025study_layoutflipanimation" />
             <option value="$PROJECT_DIR$/026study_overlay" />
+            <option value="$PROJECT_DIR$/027study_notification" />
+            <option value="$PROJECT_DIR$/028study_alarmmanager" />
+            <option value="$PROJECT_DIR$/029study_realm" />
+            <option value="$PROJECT_DIR$/030study_dustinfo" />
+            <option value="$PROJECT_DIR$/031study_intent" />
+            <option value="$PROJECT_DIR$/032study_calender" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
